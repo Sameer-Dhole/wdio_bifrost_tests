@@ -4,4 +4,4 @@
 _results_
 allure-results
 node_modules
-
+.DS_Store
