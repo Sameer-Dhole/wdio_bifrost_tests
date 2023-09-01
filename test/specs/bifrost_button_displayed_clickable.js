@@ -20,8 +20,8 @@ describe('Bifrost Button Testing -> @sanity', () => {
         // console.log(`serverLogs ${serverLogs}`)
         // assert.strictEqual("1", "2", "err")
         assert.isFalse(isKeyPresent)
-        
     })
+
     it('should test combination in button component -> @regression', async () => {
         // Go to URL
         await browser.url(`${browser.options.baseUrl}button--primary`);
